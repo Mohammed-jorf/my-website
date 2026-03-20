@@ -173,7 +173,14 @@ export function ContactForm() {
           />
           <div className="form-actions">
             <button type="submit" className="button button-primary" disabled={isSubmitting}>
-              {isSubmitting ? "Sending message..." : "Send Message"}
+              {isSubmitting ? (
+                <>
+                  <span className="button-spinner" aria-hidden="true" />
+                  Sending message...
+                </>
+              ) : (
+                "Send Message"
+              )}
             </button>
             <p className="form-hint">
               Prefer email? <a href={`mailto:${contactConfig.publicEmail}`}>{contactConfig.publicEmail}</a>

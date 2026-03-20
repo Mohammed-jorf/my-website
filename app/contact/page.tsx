@@ -25,6 +25,10 @@ export default function ContactPage() {
           <p className="contact-card-lead">
             If you prefer a direct route, email or LinkedIn works well too.
           </p>
+          <div className="response-note">
+            <p className="response-note-label">Typical response time</p>
+            <p>I usually reply within 1 to 2 business days.</p>
+          </div>
           <p>
             Email: <a href={`mailto:${contactConfig.publicEmail}`}>{contactConfig.publicEmail}</a>
           </p>

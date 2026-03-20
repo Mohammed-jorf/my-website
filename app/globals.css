@@ -316,6 +316,15 @@ h1 {
   cursor: wait;
 }
 
+.button-spinner {
+  width: 0.95rem;
+  height: 0.95rem;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.32);
+  border-top-color: #ffffff;
+  animation: spin 0.8s linear infinite;
+}
+
 .cta {
   padding: 1.35rem;
 }
@@ -450,6 +459,23 @@ textarea[aria-invalid="true"] {
   color: var(--color-muted);
 }
 
+.response-note {
+  margin-bottom: 1rem;
+  padding: 0.8rem 0.9rem;
+  border-radius: var(--radius-sm);
+  background: rgba(13, 95, 79, 0.08);
+  border: 1px solid rgba(13, 95, 79, 0.12);
+}
+
+.response-note-label {
+  margin-bottom: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
 .page-header {
   padding: 3.8rem 0 1.1rem;
 }
@@ -500,6 +526,12 @@ textarea[aria-invalid="true"] {
   display: grid;
   gap: 0.8rem;
   justify-items: start;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 900px) {

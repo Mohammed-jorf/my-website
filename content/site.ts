@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
   url: "https://mohammed-jorf.vercel.app",
   email: "mohammedjorf99@gmail.com",
   socialLinks: [
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/mohammedjorf" }
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/mohammed-jorf-6164a0287/" }
   ]
 };
 
