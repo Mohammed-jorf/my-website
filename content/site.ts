@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   title: "Mohammed Jorf | Hybrid AI and Embedded Systems Engineer",
   description:
     "Portfolio of Mohammed Jorf, Hybrid AI and Embedded Systems Engineer working across clinical NLP, LLM systems, and intelligent hardware.",
-  url: "https://example.com",
+  url: "https://mohammed-jorf.vercel.app",
   email: "mohammedjorf99@gmail.com",
   socialLinks: [
     { label: "LinkedIn", href: "https://www.linkedin.com/in/mohammedjorf" }
