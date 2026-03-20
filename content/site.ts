@@ -172,6 +172,6 @@ export const courses: TimelineEntry[] = [
 export const contactConfig: ContactConfig = {
   publicEmail: siteConfig.email,
   formEndpoint: "https://formspree.io/f/your-form-id",
-  successMessage: "Thanks. Your message has been sent successfully.",
+  successMessage: "Your note is in. I will review it and reply as soon as I can.",
   spamProtectionMode: "honeypot"
 };

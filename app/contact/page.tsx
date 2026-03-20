@@ -16,12 +16,15 @@ export default function ContactPage() {
   return (
     <Section
       title="Contact"
-      description="Send a message using the form below, or reach out directly through email or social channels."
+      description="Use the form for collaborations, research discussions, speaking requests, or consulting inquiries."
     >
       <div className="contact-grid">
         <ContactForm />
         <aside className="card contact-card">
           <h3>Direct Contact</h3>
+          <p className="contact-card-lead">
+            If you prefer a direct route, email or LinkedIn works well too.
+          </p>
           <p>
             Email: <a href={`mailto:${contactConfig.publicEmail}`}>{contactConfig.publicEmail}</a>
           </p>
