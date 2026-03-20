@@ -19,12 +19,20 @@ export default function OpenGraphImage() {
           width: "100%",
           alignItems: "center",
           justifyContent: "center",
-          background:
-            "radial-gradient(circle at 15% 20%, rgba(13,95,79,0.25), transparent 30%), #f5f4ed",
+          backgroundColor: "#f5f4ed",
           color: "#1f2421",
-          padding: "72px"
+          padding: "72px",
+          position: "relative"
         }}
       >
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background:
+              "radial-gradient(circle at 15% 20%, rgba(13,95,79,0.18), transparent 30%)"
+          }}
+        />
         <div
           style={{
             display: "flex",
@@ -33,7 +41,8 @@ export default function OpenGraphImage() {
             borderRadius: "24px",
             padding: "44px",
             width: "100%",
-            background: "white"
+            backgroundColor: "white",
+            position: "relative"
           }}
         >
           <span style={{ fontSize: 34, letterSpacing: "0.18em", textTransform: "uppercase" }}>
